@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- FAVICON  -->
+  <link rel="shortcut icon" href="Picture/circle-user-48af2db9c3fe371062ab8512645f5ef9.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="./CSS/index.css">
+  <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+  <!-- FONT GOOGLE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navInstruction navbar navbar-expand-lg container">
+      <div class="container">
+        <a class="navbar-brand text-center" href="#">
+          <p><i class="fa fa-book"></i> MEMORY</p>
+          <!-- <p class="mb-0">EDUCATION</p> -->
+        </a>
+        <button id="dropdown" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                PAGES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Codes</a></li>
+                <li><a class="dropdown-item" href="#">Icons</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <div class="header_user">
+              <a href="ValidatedForm.html" id="log">Login</a>
+              <a href="Signup.html" id="sign">Register</a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Carousel -->
+  <section class="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="img_carousel">
+            <img src="./picture/cr1.png" alt="...">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p>It's hard to find good friends, it's even harder to break up with them and it's people we can never forget.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="img_carousel">
+            <img src="./picture/cr2.png" alt="...">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5></h5>
+            <p>Some memories are unforgettable, remaining ever vivid and heartwarming!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="img_carousel">
+            <img src="./picture/cr3.jpg" alt="...">
+          </div>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>“Friendship is like a glass ornament, once it is broken it can rarely be put back together exactly the same way.” </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- CONTENT -->
+  <section class="content">
+    <div class="content_title">
+      <h3><span>M</span>emory</h3>
+      <p>Memories are moments that happened in the past that we always remember.
+        <br> No matter how small or big, how little or how much,
+        each memory contains great values ​​and strength.
+        <br> It always exists, always exists and affects everyone's own life.
+      </p>
+    </div>
+    <div class="content_member container">
+      <div class="row gx-3">
+        <div class="col-4 content_col">
+          <div class="content_item">
+            <div class="title_item">
+              <h2>Memory Photo Storage</h2>
+            </div>
+            <div class="img_item">
+              <img src="./picture/The_Thinh.jpg" alt="" class="cover_img">
+            </div>
+            <div class="item_content">
+              <h4>Phan Thế Thịnh</h4>
+              <div class="icon">
+                <a href="https://www.facebook.com/phanthethinh.official26" class="facebook"><i
+                    class="fab fa-facebook-f"></i></a>
+                <a href="https://hn.manage.bizflycloud.vn/dashboard/" class="github"><i
+                    class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/Uwuhatake264/" class="instagram"><i
+                    class="fab fa-instagram"></i></a>
+                <a href="https://www.google.com/intl/vi/gmail/about/" class="gmail"><i
+                    class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 content_col">
+          <div class="content_item">
+            <div class="title_item">
+              <h2>Memory Photo Storage</h2>
+            </div>
+            <div class="img_item">
+              <img src="./picture/handsome1.jpg" alt="" class="cover_img">
+            </div>
+            <div class="item_content">
+              <h4>Trần Duy Tân</h4>
+              <div class="icon">
+                <a href="https://www.facebook.com/tranduytan.0407" class="facebook"><i
+                    class="fab fa-facebook-f"></i></a>
+                <a href="https://hn.manage.bizflycloud.vn/dashboard/" class="github"><i
+                    class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/duy_tana/" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.google.com/intl/vi/gmail/about/" class="gmail"><i
+                    class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 content_col">
+          <div class="content_item">
+            <div class="title_item">
+              <h2>Memory Photo Storage</h2>
+            </div>
+            <div class="img_item">
+              <img src="./picture/F_Thanh`.jpg" alt="" class="cover_img">
+            </div>
+            <div class="item_content">
+              <h4>Nguyễn Trần Phúc Thành</h4>
+              <div class="icon">
+                <a href="https://www.facebook.com/profile.php?id=100040931719147" class="facebook"><i
+                    class="fab fa-facebook-f"></i></a>
+                <a href="https://hn.manage.bizflycloud.vn/dashboard/" class="github"><i
+                    class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/phuc.thanh142/" class="instagram"><i
+                    class="fab fa-instagram"></i></a>
+                <a href="https://www.google.com/intl/vi/gmail/about/" class="gmail"><i
+                    class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ROW 2 -->
+        <div class="col-4 content_col">
+          <div class="content_item">
+            <div class="title_item">
+              <h2>Memory Photo Storage</h2>
+            </div>
+            <div class="img_item">
+              <img src="./picture/H_Tu.jpg" alt="" class="cover_img">
+            </div>
+            <div class="item_content">
+              <h4>Nguyễn Hoàng Tú</h4>
+              <div class="icon">
+                <a href="https://www.facebook.com/profile.php?id=100039716394070" class="facebook"><i
+                    class="fab fa-facebook-f"></i></a>
+                <a href="https://github.com/hoangtu648/" class="github"><i
+                    class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/hoangtu_648/" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.google.com/intl/vi/gmail/about/" class="gmail"><i
+                    class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 content_col">
+          <div class="content_item">
+            <div class="title_item">
+              <h2>Memory Photo Storage</h2>
+            </div>
+            <div class="img_item">
+              <img src="./picture/Cho' rach'.jpg" alt="" class="cover_img">
+            </div>
+            <div class="item_content">
+              <h4>Trần Quốc Trung</h4>
+              <div class="icon">
+                <a href="https://www.facebook.com/profile.php?id=100038817104159" class="facebook"><i
+                    class="fab fa-facebook-f"></i></a>
+                <a href="https://hn.manage.bizflycloud.vn/dashboard/" class="github"><i
+                    class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/traan_truung/" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.google.com/intl/vi/gmail/about/" class="gmail"><i
+                    class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- EMAIL -->
+  <section class="email">
+    <div class="email_content container text-center">
+      <h3>Comment</h3>
+      <p>You can view and rate my website here</p> <br>
+      <input type="text" placeholder="Your comment" class="form">
+      <button id="btn_gui" type="submit">Submit</button>
+    </div>
+  </section>
+  </section>
+
+  <!-- Site footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>Memory</h6>
+          <p class="text-justify">You can share memories of yourself, friends, relatives or family with us and with
+            everyone.</p>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Categories</h6>
+          <ul class="footer-links">
+            <li><a href="#">C</a></li>
+            <li><a href="#">UI Design</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">Android</a></li>
+            <li><a href="#">Templates</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="#">Home Us</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Servies</a></li>
+            <li><a href="#">Page</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a class="instagram" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a class="github" href="#"><i class="fa-brands fa-github"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Thu vien ho tro-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+  <script src="JS/app.js"></script>
+
+
+</body>
+
+</html>
